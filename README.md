@@ -1,3 +1,5 @@
 # ODMS
-Outlier Detection for Macro-economic Times Series
-# TODO
+*O*utlier *D*etection for *M*acro-economic Times *S*eries
+
+
+
