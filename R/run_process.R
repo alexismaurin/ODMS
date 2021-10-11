@@ -17,7 +17,7 @@ run_process <- function(data, lowess_smoothing_parameter, ap_q_parameter, ap_lam
   outliers <- get_outlying_data_points(data = data_with_clusters[['data_scaled']], window_percentage = window_percentage, from = from)
   
   #Create outputs
-  create_csv(outliers, folder_name)
   plot_datapoints_outliers_per_cluster(outliers = outliers, data = data_with_clusters[['data_scaled']], folder_name = folder_name, save = save_plots)
-  
+  create_csv(outliers, folder_name)
+                                             
 }
